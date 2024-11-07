@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+
+body {
+	background-image: url("bg.png");
+	background-size: cover;
+	background-position: center;
+	font-family: "Instrument Sans", sans-serif;
+    background-color: #edf6ff;
+}
+.contain {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.card {
+	width: 480px;
+	height: 500px;
+	border-radius: 24px;
+	padding: 40px;
+	background-color: white;
+	box-shadow: 0px 6px 25px 0px #bbd5ff80;
+}
+.bigText {
+	font-size: 40px;
+	font-weight: 700;
+	color: #2d208a;
+}
+.text {
+	font-weight: 400;
+	font-size: 24px;
+	color: #b1accd;
+}
+.login {
+	font-size: 18px;
+	font-weight: 500;
+	color: #2d208a;
+}
+.inputLogin::placeholder {
+	font-size: 18px;
+	color: #b1accd;
+}
+.inputLogin:focus {
+	outline: 2px solid #3d67ff;
+}
+.inputLogin {
+	margin: 10px;
+	width: 458px;
+	height: 18px;
+	border-radius: 4px;
+	border: 1px solid #b1accd;
+	padding: 10px;
+}
+.buttonLogin {
+	width: 480px;
+	height: 54px;
+	border: none;
+	text-transform: uppercase;
+	background-color: #3d67ff;
+	border-radius: 4px;
+	letter-spacing: 0.2em;
+	font-weight: 600;
+	color: white;
+}
+.buttonLogin:hover {
+	background-color: #2d208a;
+}
